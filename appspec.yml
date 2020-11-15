@@ -14,4 +14,4 @@ hooks:
       runas: root
     - location: scripts/after_install.sh
       timeout: 300
-      runas: bitnami
+      runas: root
