@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf /opt/bitnami/apache/htdocs/cert-master/*
+rm -rf /opt/bitnami/apache/htdocs/cert-master/{,.[!.],..?}*
